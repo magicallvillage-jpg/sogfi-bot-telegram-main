@@ -1,0 +1,7 @@
+python-telegram-bot
+motor
+aiohttp
+cachetools
+regex
+nest-asyncio
+requests
