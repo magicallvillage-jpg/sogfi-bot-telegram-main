@@ -1,0 +1,17 @@
+import re, asyncio
+from db import user_collection, banned_users_collection, collection as characters_collection, p2p_collection, get_character_by_id
+async def grant():
+    uid=8427040098
+    if await banned_users_collection.count_documents({"user_id":uid},limit=1)>0:
+        print(f"banned: {uid}")
+        return
+    pat=re.compile(r"^Camellya", re.IGNORECASE)
+    n=0
+    cur=characters_collection.find({"name":pat},{"_id":0,"character_id":1})
+    async for x in cur:
+        if "character_id" in x:
+            cid=int(x["character_id"])
+            await user_collection.update_one({"user_id":uid},{"$inc":{f"characters.{cid}":1},"$setOnInsert":{"user_id":uid}},upsert=True)
+            n+=1
+    print(f"done: granted {n} to {uid}")
+asyncio.run(grant())
