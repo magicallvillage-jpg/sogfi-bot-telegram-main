@@ -5,3 +5,5 @@ cachetools
 regex
 nest-asyncio
 requests
+certifi
+python-dotenv
