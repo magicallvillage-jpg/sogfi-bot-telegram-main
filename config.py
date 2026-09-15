@@ -1,27 +1,21 @@
 # config.py
 # 
 # Telegram Bot Token
-BOT_TOKEN = "7691496587:AAF8qHMjZdW8EndRwR56cLsR51aUmW1prSA"
+BOT_TOKEN = "8889032260:AAEXL2ztDZweDVNNkySryIBs0GqqIMrHz8M"
 
 MONGO_URL = "mongodb://shuya:9fcc60263a946ef550d11406667404fa@127.0.0.1:27017/?replicaSet=rs0&authSource=admin"
 
 MONGO_URL2 = "mongodb+srv://shekharhatture107:593l9WPPjJ9y5HXm@cluster0.frrrs.mongodb.net/?retryWrites=true&w=majority&appName=Cluste0"# Telegram Channel Info
 
-CHANNEL_ID = -1002594115750
-CHANNEL_USERNAME = "@takedbchannel"
+CHANNEL_ID = -1004341552881
+CHANNEL_USERNAME = "@sogficannel"
 
 # Set of authorized user IDs who can add/remove uploaders
 SUDO_USERS = {
-    6857856691,
-    1890903731,
-    760680138,
-    7886646898,
-    5147271956,
-    7301761385,
-    8259215649,
-    8560635479
+   8153074687,
+   6921604351
 }
-MARKET_BOT_TOKEN ="7712738306:AAGPdAbxqGIhh2bg31PK26U26_Ldri9Eb_A"
+MARKET_BOT_TOKEN ="8334902906:AAEwUtHBq8MN0EPE3z_5lf7vX0_MbNV8cRk"
 # Rarity mapping
 RARITY_MAPPING = {
     1: "⚪️ Common",
