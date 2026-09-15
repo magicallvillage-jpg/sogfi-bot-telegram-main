@@ -1,10 +1,13 @@
 # config.py
+import os
+
+MONGO_URL = os.getenv("MONGO_URL")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 # 
 # Telegram Bot Token
-BOT_TOKEN = "8889032260:AAEXL2ztDZweDVNNkySryIBs0GqqIMrHz8M"
+BOT_TOKEN = BOT_TOKEN;
 
-MONGO_URL ="mongodb+srv://cluster0.6p2dkan.mongodb.net/" --apiVersion 1 --username magicallvillage_db_user --password hwl8JEKP148Vk3mr"
-
+MONGO_URL = MONGO_URL;
 MONGO_URL2 = "mongodb+srv://shekharhatture107:593l9WPPjJ9y5HXm@cluster0.frrrs.mongodb.net/?retryWrites=true&w=majority&appName=Cluste0"# Telegram Channel Info
 
 CHANNEL_ID = -1004341552881
