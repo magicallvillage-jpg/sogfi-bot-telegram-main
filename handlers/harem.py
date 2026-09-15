@@ -34,7 +34,7 @@ ITEMS_PER_PAGE = 10
 ANIME_PER_PAGE = 6
 
 # Error logging channel configuration
-ERROR_LOG_CHANNEL_ID = -1002564005291  # Replace with your actual error log channel ID
+ERROR_LOG_CHANNEL_ID = -1004341552881  # Replace with your actual error log channel ID
 
 async def send_error_to_channel(bot: Bot, error: Exception, context: str, user_id: int = None, additional_info: Dict = None):
     """
@@ -102,10 +102,10 @@ async def check_user_telegram_membership(user_id: int, bot: Bot) -> Tuple[bool, 
             - str: A warning message indicating membership status and instructions.
             - Optional[InlineKeyboardMarkup]: Inline keyboard with join buttons, or None if not needed.
     """
-    UPDATE_CHANNEL_ID = -1002093646327  # @taker_official_channel
-    GROUP_ID = -1002588814659           # @takers_official_group
-    CHANNEL_LINK = "https://t.me/taker_official_channel"
-    GROUP_LINK = "https://t.me/Takers_official_group"
+    UPDATE_CHANNEL_ID = -1004341552881  # @sogficannel
+    GROUP_ID = -1003987395271           # @sogfigap
+    CHANNEL_LINK = "https://t.me/sogficannel"
+    GROUP_LINK = "https://t.me/sogfigap"
 
     is_in_channel = False
     is_in_group = False
