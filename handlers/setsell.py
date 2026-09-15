@@ -19,8 +19,8 @@ RARITY_PRICE_LIMITS = {
     "🍭 Elixir": (1000, 2100)
 }
 
-CHANNEL_ID = -1003645464827
-CHANNEL_USERNAME = "p2p_Takers"
+CHANNEL_ID = -1004341552881
+CHANNEL_USERNAME = "sogficannel"
 ITEMS_PER_PAGE = 8
 
 # Initialize Notification Bot
