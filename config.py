@@ -3,7 +3,7 @@
 # Telegram Bot Token
 BOT_TOKEN = "8889032260:AAEXL2ztDZweDVNNkySryIBs0GqqIMrHz8M"
 
-MONGO_URL = "mongodb://shuya:9fcc60263a946ef550d11406667404fa@127.0.0.1:27017/?replicaSet=rs0&authSource=admin"
+MONGO_URL ="mongodb+srv://cluster0.6p2dkan.mongodb.net/" --apiVersion 1 --username magicallvillage_db_user --password hwl8JEKP148Vk3mr"
 
 MONGO_URL2 = "mongodb+srv://shekharhatture107:593l9WPPjJ9y5HXm@cluster0.frrrs.mongodb.net/?retryWrites=true&w=majority&appName=Cluste0"# Telegram Channel Info
 
