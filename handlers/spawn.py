@@ -27,7 +27,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Constants
-SPECIAL_GROUP_ID = "-1002588814659"
+SPECIAL_GROUP_ID = "-1003987395271"
 ELIXIR_RARITY = "🍭 Elixir"
 
 # Counters
